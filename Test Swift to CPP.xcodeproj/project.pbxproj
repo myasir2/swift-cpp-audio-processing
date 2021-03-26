@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5406EE2F260D6B9400144F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE2E260D6B9400144F21 /* AppDelegate.swift */; };
+		5406EE31260D6B9400144F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE30260D6B9400144F21 /* SceneDelegate.swift */; };
+		5406EE33260D6B9400144F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE32260D6B9400144F21 /* ViewController.swift */; };
+		5406EE36260D6B9400144F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5406EE34260D6B9400144F21 /* Main.storyboard */; };
+		5406EE38260D6B9600144F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5406EE37260D6B9600144F21 /* Assets.xcassets */; };
+		5406EE3B260D6B9600144F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5406EE39260D6B9600144F21 /* LaunchScreen.storyboard */; };
+		5406EE47260D6BDF00144F21 /* TestCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE45260D6BDF00144F21 /* TestCpp.cpp */; };
+		5406EE4A260D6D5D00144F21 /* TestCppWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE49260D6D5D00144F21 /* TestCppWrapper.m */; };
+		5406EE7C260D7A0300144F21 /* MFCC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE6D260D7A0200144F21 /* MFCC.cpp */; };
+		5406EE7D260D7A0300144F21 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5406EE6E260D7A0200144F21 /* CMakeLists.txt */; };
+		5406EE7E260D7A0300144F21 /* Gist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE70260D7A0200144F21 /* Gist.cpp */; };
+		5406EE7F260D7A0300144F21 /* Yin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE72260D7A0200144F21 /* Yin.cpp */; };
+		5406EE80260D7A0300144F21 /* OnsetDetectionFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE74260D7A0300144F21 /* OnsetDetectionFunction.cpp */; };
+		5406EE81260D7A0300144F21 /* CoreFrequencyDomainFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE75260D7A0300144F21 /* CoreFrequencyDomainFeatures.cpp */; };
+		5406EE82260D7A0300144F21 /* CoreTimeDomainFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE76260D7A0300144F21 /* CoreTimeDomainFeatures.cpp */; };
+		5406EE83260D7A0300144F21 /* WindowFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE78260D7A0300144F21 /* WindowFunctions.cpp */; };
+		5406EE84260D7A0300144F21 /* AccelerateFFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE79260D7A0300144F21 /* AccelerateFFT.cpp */; };
+		5406EE9C260D7D8E00144F21 /* kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 5406EE96260D7D8E00144F21 /* kiss_fft.c */; };
+		5406EE9D260D7D8E00144F21 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 5406EE98260D7D8E00144F21 /* README */; };
+		5406EE9E260D7D8E00144F21 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 5406EE9A260D7D8E00144F21 /* COPYING */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5406EE2B260D6B9400144F21 /* Test Swift to CPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Swift to CPP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5406EE2E260D6B9400144F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5406EE30260D6B9400144F21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5406EE32260D6B9400144F21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5406EE35260D6B9400144F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5406EE37260D6B9600144F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5406EE3A260D6B9600144F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5406EE3C260D6B9600144F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5406EE44260D6BDF00144F21 /* Test Swift to CPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test Swift to CPP-Bridging-Header.h"; sourceTree = "<group>"; };
+		5406EE45260D6BDF00144F21 /* TestCpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestCpp.cpp; sourceTree = "<group>"; };
+		5406EE46260D6BDF00144F21 /* TestCpp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestCpp.hpp; sourceTree = "<group>"; };
+		5406EE49260D6D5D00144F21 /* TestCppWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCppWrapper.m; sourceTree = "<group>"; };
+		5406EE6B260D7A0200144F21 /* AccelerateFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerateFFT.h; sourceTree = "<group>"; };
+		5406EE6C260D7A0200144F21 /* Yin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yin.h; sourceTree = "<group>"; };
+		5406EE6D260D7A0200144F21 /* MFCC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MFCC.cpp; sourceTree = "<group>"; };
+		5406EE6E260D7A0200144F21 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		5406EE6F260D7A0200144F21 /* MFCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCC.h; sourceTree = "<group>"; };
+		5406EE70260D7A0200144F21 /* Gist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gist.cpp; sourceTree = "<group>"; };
+		5406EE71260D7A0200144F21 /* CoreFrequencyDomainFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFrequencyDomainFeatures.h; sourceTree = "<group>"; };
+		5406EE72260D7A0200144F21 /* Yin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Yin.cpp; sourceTree = "<group>"; };
+		5406EE73260D7A0300144F21 /* WindowFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowFunctions.h; sourceTree = "<group>"; };
+		5406EE74260D7A0300144F21 /* OnsetDetectionFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnsetDetectionFunction.cpp; sourceTree = "<group>"; };
+		5406EE75260D7A0300144F21 /* CoreFrequencyDomainFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoreFrequencyDomainFeatures.cpp; sourceTree = "<group>"; };
+		5406EE76260D7A0300144F21 /* CoreTimeDomainFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoreTimeDomainFeatures.cpp; sourceTree = "<group>"; };
+		5406EE77260D7A0300144F21 /* CoreTimeDomainFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTimeDomainFeatures.h; sourceTree = "<group>"; };
+		5406EE78260D7A0300144F21 /* WindowFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WindowFunctions.cpp; sourceTree = "<group>"; };
+		5406EE79260D7A0300144F21 /* AccelerateFFT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AccelerateFFT.cpp; sourceTree = "<group>"; };
+		5406EE7A260D7A0300144F21 /* OnsetDetectionFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnsetDetectionFunction.h; sourceTree = "<group>"; };
+		5406EE7B260D7A0300144F21 /* Gist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gist.h; sourceTree = "<group>"; };
+		5406EE96260D7D8E00144F21 /* kiss_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fft.c; sourceTree = "<group>"; };
+		5406EE97260D7D8E00144F21 /* _kiss_fft_guts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _kiss_fft_guts.h; sourceTree = "<group>"; };
+		5406EE98260D7D8E00144F21 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		5406EE99260D7D8E00144F21 /* kiss_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fft.h; sourceTree = "<group>"; };
+		5406EE9A260D7D8E00144F21 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		5406EE9B260D7D8E00144F21 /* kissfft.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = kissfft.hh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5406EE28260D6B9400144F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5406EE22260D6B9400144F21 = {
+			isa = PBXGroup;
+			children = (
+				5406EE2D260D6B9400144F21 /* Test Swift to CPP */,
+				5406EE2C260D6B9400144F21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5406EE2C260D6B9400144F21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5406EE2B260D6B9400144F21 /* Test Swift to CPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5406EE2D260D6B9400144F21 /* Test Swift to CPP */ = {
+			isa = PBXGroup;
+			children = (
+				5406EE43260D6BB000144F21 /* cpp_source */,
+				5406EE2E260D6B9400144F21 /* AppDelegate.swift */,
+				5406EE30260D6B9400144F21 /* SceneDelegate.swift */,
+				5406EE32260D6B9400144F21 /* ViewController.swift */,
+				5406EE34260D6B9400144F21 /* Main.storyboard */,
+				5406EE37260D6B9600144F21 /* Assets.xcassets */,
+				5406EE39260D6B9600144F21 /* LaunchScreen.storyboard */,
+				5406EE3C260D6B9600144F21 /* Info.plist */,
+			);
+			path = "Test Swift to CPP";
+			sourceTree = "<group>";
+		};
+		5406EE43260D6BB000144F21 /* cpp_source */ = {
+			isa = PBXGroup;
+			children = (
+				5406EE6A260D7A0200144F21 /* gist */,
+				5406EE45260D6BDF00144F21 /* TestCpp.cpp */,
+				5406EE46260D6BDF00144F21 /* TestCpp.hpp */,
+				5406EE44260D6BDF00144F21 /* Test Swift to CPP-Bridging-Header.h */,
+				5406EE49260D6D5D00144F21 /* TestCppWrapper.m */,
+			);
+			path = cpp_source;
+			sourceTree = "<group>";
+		};
+		5406EE6A260D7A0200144F21 /* gist */ = {
+			isa = PBXGroup;
+			children = (
+				5406EE96260D7D8E00144F21 /* kiss_fft.c */,
+				5406EE97260D7D8E00144F21 /* _kiss_fft_guts.h */,
+				5406EE98260D7D8E00144F21 /* README */,
+				5406EE99260D7D8E00144F21 /* kiss_fft.h */,
+				5406EE9A260D7D8E00144F21 /* COPYING */,
+				5406EE9B260D7D8E00144F21 /* kissfft.hh */,
+				5406EE6B260D7A0200144F21 /* AccelerateFFT.h */,
+				5406EE6C260D7A0200144F21 /* Yin.h */,
+				5406EE6D260D7A0200144F21 /* MFCC.cpp */,
+				5406EE6E260D7A0200144F21 /* CMakeLists.txt */,
+				5406EE6F260D7A0200144F21 /* MFCC.h */,
+				5406EE70260D7A0200144F21 /* Gist.cpp */,
+				5406EE71260D7A0200144F21 /* CoreFrequencyDomainFeatures.h */,
+				5406EE72260D7A0200144F21 /* Yin.cpp */,
+				5406EE73260D7A0300144F21 /* WindowFunctions.h */,
+				5406EE74260D7A0300144F21 /* OnsetDetectionFunction.cpp */,
+				5406EE75260D7A0300144F21 /* CoreFrequencyDomainFeatures.cpp */,
+				5406EE76260D7A0300144F21 /* CoreTimeDomainFeatures.cpp */,
+				5406EE77260D7A0300144F21 /* CoreTimeDomainFeatures.h */,
+				5406EE78260D7A0300144F21 /* WindowFunctions.cpp */,
+				5406EE79260D7A0300144F21 /* AccelerateFFT.cpp */,
+				5406EE7A260D7A0300144F21 /* OnsetDetectionFunction.h */,
+				5406EE7B260D7A0300144F21 /* Gist.h */,
+			);
+			path = gist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5406EE2A260D6B9400144F21 /* Test Swift to CPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5406EE3F260D6B9600144F21 /* Build configuration list for PBXNativeTarget "Test Swift to CPP" */;
+			buildPhases = (
+				5406EE27260D6B9400144F21 /* Sources */,
+				5406EE28260D6B9400144F21 /* Frameworks */,
+				5406EE29260D6B9400144F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Swift to CPP";
+			productName = "Test Swift to CPP";
+			productReference = 5406EE2B260D6B9400144F21 /* Test Swift to CPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5406EE23260D6B9400144F21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5406EE2A260D6B9400144F21 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 5406EE26260D6B9400144F21 /* Build configuration list for PBXProject "Test Swift to CPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5406EE22260D6B9400144F21;
+			productRefGroup = 5406EE2C260D6B9400144F21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5406EE2A260D6B9400144F21 /* Test Swift to CPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5406EE29260D6B9400144F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5406EE9E260D7D8E00144F21 /* COPYING in Resources */,
+				5406EE9D260D7D8E00144F21 /* README in Resources */,
+				5406EE7D260D7A0300144F21 /* CMakeLists.txt in Resources */,
+				5406EE3B260D6B9600144F21 /* LaunchScreen.storyboard in Resources */,
+				5406EE38260D6B9600144F21 /* Assets.xcassets in Resources */,
+				5406EE36260D6B9400144F21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5406EE27260D6B9400144F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5406EE7F260D7A0300144F21 /* Yin.cpp in Sources */,
+				5406EE82260D7A0300144F21 /* CoreTimeDomainFeatures.cpp in Sources */,
+				5406EE7C260D7A0300144F21 /* MFCC.cpp in Sources */,
+				5406EE81260D7A0300144F21 /* CoreFrequencyDomainFeatures.cpp in Sources */,
+				5406EE4A260D6D5D00144F21 /* TestCppWrapper.m in Sources */,
+				5406EE33260D6B9400144F21 /* ViewController.swift in Sources */,
+				5406EE2F260D6B9400144F21 /* AppDelegate.swift in Sources */,
+				5406EE31260D6B9400144F21 /* SceneDelegate.swift in Sources */,
+				5406EE9C260D7D8E00144F21 /* kiss_fft.c in Sources */,
+				5406EE84260D7A0300144F21 /* AccelerateFFT.cpp in Sources */,
+				5406EE80260D7A0300144F21 /* OnsetDetectionFunction.cpp in Sources */,
+				5406EE83260D7A0300144F21 /* WindowFunctions.cpp in Sources */,
+				5406EE47260D6BDF00144F21 /* TestCpp.cpp in Sources */,
+				5406EE7E260D7A0300144F21 /* Gist.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5406EE34260D6B9400144F21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5406EE35260D6B9400144F21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5406EE39260D6B9600144F21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5406EE3A260D6B9600144F21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5406EE3D260D6B9600144F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5406EE3E260D6B9600144F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5406EE40260D6B9600144F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L77PA869CW;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Test Swift to CPP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DUSE_KISS_FFT";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.myasir.Test-Swift-to-CPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test Swift to CPP/cpp_source/Test Swift to CPP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5406EE41260D6B9600144F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L77PA869CW;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "Test Swift to CPP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DUSE_KISS_FFT";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.myasir.Test-Swift-to-CPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test Swift to CPP/cpp_source/Test Swift to CPP-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5406EE26260D6B9400144F21 /* Build configuration list for PBXProject "Test Swift to CPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5406EE3D260D6B9600144F21 /* Debug */,
+				5406EE3E260D6B9600144F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5406EE3F260D6B9600144F21 /* Build configuration list for PBXNativeTarget "Test Swift to CPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5406EE40260D6B9600144F21 /* Debug */,
+				5406EE41260D6B9600144F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5406EE23260D6B9400144F21 /* Project object */;
+}
